@@ -8,7 +8,7 @@ services:
     volumes:
       - ./data:/data
     environment:
-      AUTOR: JuanMendoza
+      AUTOR: LauraCaballero
       DB_HOST: db
       DB_USER: usuario
       DB_PASS: password123
@@ -34,6 +34,7 @@ volumes:
 
 networks:
   redlocal:
+
 
 
 
